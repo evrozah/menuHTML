@@ -1,0 +1,21 @@
+body{
+  font-family: 'Assistant', sans-serif;
+}
+body,p,h6,span{
+  margin: 0px;
+  padding: 0px;
+}
+
+span,p{
+  border: red 1px solid
+}
+
+
+.vitamin-unit{
+  width: 50px;
+  font-size: 25px;
+}
+
+div.vitamin-unit>p{
+  height: 76px;
+}
