@@ -13,7 +13,7 @@ body,p,h6,span{
 
 .vitamin-unit{
   margin: 10px;
-  width: 54px;
+  width: 70px;
   line-height: 20px;
   /*height: 72px;*/
   background-color: #FF5500;
@@ -22,28 +22,42 @@ body,p,h6,span{
   border: red 1px solid;
   text-align: center;
   vertical-align:middle;
+  float: right;
 
 }
 
 .unit-row{
-  height: 20px;
+  height: 24px;
   /*border: green 1px solid*/
+  display: flex;
+    justify-content: center;
+    align-items: center;
 
-  
 }
 
 .unit-row > span{
-  padding: 0px 2px;
-
-
-
+    margin: 0px 1px;
+border: green 1px solid;
+width: 27px;
 }
 
 .unit-row-quantity{
   padding: 0px 2px;
   background-color: white;
   color: black;
-  height: 20px;
+  height: 18px;
+  line-height: 18px;
+
 
   /*border: green 1px solid*/
+}
+
+.unit-row-quantity > span{
+  border: green 1px solid;
+  display: inline-block;
+  width: 27px;
+  margin: 0px 1px;
+}
+.s{
+  border-right: 1px #FF5500 solid;
 }
