@@ -6,16 +6,44 @@ body,p,h6,span{
   padding: 0px;
 }
 
-span,p{
-  border: red 1px solid
-}
+/*span,p{
+  border: red 1px solid;
+}*/
 
 
 .vitamin-unit{
-  width: 50px;
-  font-size: 25px;
+  margin: 10px;
+  width: 54px;
+  line-height: 20px;
+  /*height: 72px;*/
+  background-color: #FF5500;
+  color: #FFFFFF;
+  font-size: 11px;
+  border: red 1px solid;
+  text-align: center;
+  vertical-align:middle;
+
 }
 
-div.vitamin-unit>p{
-  height: 76px;
+.unit-row{
+  height: 20px;
+  /*border: green 1px solid*/
+
+  
+}
+
+.unit-row > span{
+  padding: 0px 2px;
+
+
+
+}
+
+.unit-row-quantity{
+  padding: 0px 2px;
+  background-color: white;
+  color: black;
+  height: 20px;
+
+  /*border: green 1px solid*/
 }
